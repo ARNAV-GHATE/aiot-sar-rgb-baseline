@@ -1,0 +1,16 @@
+{
+  "name": "finetuned_yolo11n",
+  "weights": "weights_ft_yolo11n_best.pt",
+  "dataset": "VisDrone2019-DET-val (548 images, pedestrian+people -> person)",
+  "imgsz": 640,
+  "precision": 0.4912550558772207,
+  "recall": 0.3118333452645143,
+  "false_negative_rate": 0.6881666547354857,
+  "mAP50": 0.3082767229632689,
+  "mAP50_95": 0.1010742540763424,
+  "latency_ms_mean": 74.94912336011112,
+  "latency_ms_p95": 97.29541069978038,
+  "latency_images": 50,
+  "hardware": "CPU only, 2 vCPUs, x86_64, no GPU",
+  "software": "python 3.13.16, torch 2.14.1+cu130, ultralytics 8.4.183"
+}

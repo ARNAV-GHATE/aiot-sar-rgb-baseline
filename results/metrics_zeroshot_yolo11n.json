@@ -1,0 +1,16 @@
+{
+  "name": "zeroshot_yolo11n",
+  "weights": "yolo11n.pt",
+  "dataset": "VisDrone2019-DET-val (548 images, pedestrian+people -> person)",
+  "imgsz": 640,
+  "precision": 0.48580438842383394,
+  "recall": 0.1796119979955616,
+  "false_negative_rate": 0.8203880020044384,
+  "mAP50": 0.174299388762788,
+  "mAP50_95": 0.06010122411165847,
+  "latency_ms_mean": 79.0863188800904,
+  "latency_ms_p95": 102.10089540023546,
+  "latency_images": 50,
+  "hardware": "CPU only, 2 vCPUs, x86_64, no GPU",
+  "software": "python 3.13.16, torch 2.14.1+cu130, ultralytics 8.4.183"
+}

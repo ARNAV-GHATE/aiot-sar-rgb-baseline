@@ -1,0 +1,7 @@
+ultralytics>=8.3
+torch
+torchvision
+opencv-python
+pillow
+numpy
+matplotlib

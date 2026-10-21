@@ -1,0 +1,7 @@
+data/raw/
+data/visdrone_person/
+runs/
+*.pt
+!weights_ft_yolo11n_best.pt
+!results/
+__pycache__/
